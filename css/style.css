@@ -3025,7 +3025,25 @@ textarea.form-control {
     .categories li.active a {
       color: #000000;
       font-style: italic; }
-      /* Hero section mobile fix */
+/* Hero section fix for all devices */
+.hero-wrap {
+  min-height: 400px;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  z-index: 0;
+}
+
+@media (min-width: 992px) {
+  .hero-wrap {
+    background-attachment: fixed;
+    min-height: 600px;
+  }
+}
+
 @media (max-width: 767.98px) {
   .hero-wrap {
     height: 300px !important;
