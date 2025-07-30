@@ -1916,27 +1916,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
       line-height: 1.2; }
       .hero-wrap .slider-text h1 span, .hero-wrap .slider-text .h1 span {
         color: #1eb2a6; }
-     @media (min-width: 992px) {
-  .hero-wrap {
-    background-attachment: fixed;
-    min-height: 600px;
-  }
-}
-@media (max-width: 767.98px) {
-  .hero-wrap {
-    height: 180px !important;
-    min-height: 120px !important;
-    background-attachment: scroll !important;
-    background-size: cover !important;
-    background-position: center center !important;
-  }
-  .hero-wrap .slider-text {
-    height: auto !important;
-    min-height: 120px !important;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-}
+      @media (max-width: 767.98px) {
+        .hero-wrap .slider-text h1, .hero-wrap .slider-text .h1 {
+          font-size: 40px; } }
+    @media (max-width: 575.98px) {
+      .hero-wrap .slider-text .btn {
+        width: 100%;
+        display: block;
+        margin-bottom: 5px; } }
     .hero-wrap .slider-text .breadcrumbs {
       font-size: 14px;
       margin-bottom: 10px;
