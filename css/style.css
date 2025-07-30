@@ -1864,8 +1864,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
     font-weight: 500; }
 
 .hero-wrap {
-   min-height: 450px;
-  height: 60vh;
+   min-height: 400px;
+  height: 100vh;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1922,20 +1922,19 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
     min-height: 600px;
   }
 }
-@media (max-width: 767.98px) 
-{
+@media (max-width: 767.98px) {
   .hero-wrap {
-    height: 300px !important;
-    min-height: 200px !important;
+    height: 180px !important;
+    min-height: 120px !important;
     background-attachment: scroll !important;
     background-size: cover !important;
     background-position: center center !important;
   }
   .hero-wrap .slider-text {
     height: auto !important;
-    min-height: 200px !important;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    min-height: 120px !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
     .hero-wrap .slider-text .breadcrumbs {
