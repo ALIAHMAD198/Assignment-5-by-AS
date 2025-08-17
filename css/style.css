@@ -1866,6 +1866,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
 .hero-wrap {
   height: 100vh;
   min-height: 100%;
+  width: 100%;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
